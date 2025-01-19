@@ -21,6 +21,12 @@ All the features are tested on Starknet Mainnet
 
 [Arya Walk Through Demo](https://youtu.be/PuMhW_PaKYc)
 
+Check transaction during the walkthrough video
+
+Transfer [tx](https://voyager.online/tx/0x31e8cd943d3fda9caaa0010756318b4ecb9e4cec4e4a374825c4ce264a355c7)
+
+Swap [tx](https://voyager.online/tx/0x051a05ddb15a32519ba4bb02167f30c6f115f582a995e7b744ff9cfb3379a33f)
+
 ## 🚀 Quick Start
 
 ### Prerequisites
