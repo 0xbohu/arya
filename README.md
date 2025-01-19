@@ -1,9 +1,5 @@
-# Eliza 🤖
+# Arya 🤖
 
-<div align="center">
-
-</div>
-# Arya
 Arya is a generative AI agent package created using [Eliza](https://elizaos.github.io/eliza/) framework.
 The main goal of Arya is for the community to send rewards to streamer/content creator via AI agent.
 
