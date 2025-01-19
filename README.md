@@ -7,6 +7,8 @@ You can find arya in project folder > packages > plugin-arya
 
 ## ✨ Features
 
+All the features are tested on Starknet Mainnet
+
 - 👥 Integration with Twitch and Youtube for creator search
 - 💾 Extract creator Starknet address and Starknet ID from description
 - 🔗 Integrate with Starknet ID
