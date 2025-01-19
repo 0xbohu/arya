@@ -19,7 +19,7 @@ All the features are tested on Starknet Mainnet
 
 ## Video Tutorials
 
-[Arya Walk Through Demo](https://www.youtube.com/watch?v=)
+[Arya Walk Through Demo](https://youtu.be/PuMhW_PaKYc)
 
 ## 🚀 Quick Start
 
@@ -53,6 +53,34 @@ TWITCH_ACCESS_TOKEN=  # Your Twitch Access Token if already authenicated, last f
 YOUTUBE_API_KEY= # Your youtube API v3 API key
 
 ```
+
+### Streamer/Content Creator
+
+Content Creator can norminate their Starknet Address and/or Starknet ID in their streaming platform Bio/Description area
+this allows Arya to query and extract their Starkent details so community users can send tokens to reward their favourite content creator
+
+Streamer can setup either Starkent Id or Starkent Address, or both
+
+Example to set Starkent ID
+
+```
+[sid]arya.stark[sid]
+```
+
+Example to set Starkent Address
+
+```
+[sa]0x02e03baacb2bb218b9f7860e9e3af6fbefa6a9c6efff767936961fe39a9dd91d[sa]
+
+```
+
+Youtube > Set Channel Description
+
+<img src="./assets/youtube_bio.png" alt="Youtube Description" width="100%" />
+
+Twitch > Set Profile Bio
+
+<img src="./assets/twitch_bio.png" alt="Twitch Bio" width="100%" />
 
 ### Start Eliza
 
