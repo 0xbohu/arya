@@ -3,7 +3,7 @@
 Arya is a generative AI agent package created using [Eliza](https://elizaos.github.io/eliza/) framework.
 The main goal of Arya is for the community to send rewards to streamer/content creator via AI agent.
 
-You can find arya in project folder > packages > plugin-arya
+As a part of Eliza framework, this project retains all existing packages from Eliza. You can find Arya plugin code in [packages > plugin-arya](https://github.com/0xbohu/arya/tree/main/packages/plugin-arya)
 
 ## ✨ Features
 
