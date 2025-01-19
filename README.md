@@ -5,6 +5,8 @@ The main goal of Arya is for the community to send rewards to streamer/content c
 
 As a part of Eliza framework, this project retains all existing packages from Eliza. You can find Arya plugin code in [packages > plugin-arya](https://github.com/0xbohu/arya/tree/main/packages/plugin-arya)
 
+Arya character file can be found in [arya.character.json](https://github.com/0xbohu/arya/blob/main/characters/arya.character.json)
+
 ## ✨ Features
 
 All the features are tested on Starknet Mainnet
