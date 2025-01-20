@@ -1,6 +1,6 @@
 {
     "name": "arya",
-    "clients": [],
+    "clients": ["telegram"],
     "modelProvider": "openai",
     "settings": {
         "secrets": {},

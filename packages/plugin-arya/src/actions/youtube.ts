@@ -81,6 +81,9 @@ export const getYoutubeContent: Action = {
         _options: { [key: string]: unknown },
         callback?: HandlerCallback
     ): Promise<boolean> => {
+        const isTelegramClient =
+            message.content.source == "telegram" ? true : false;
+        elizaLogger.log(`isTelegramClient ${isTelegramClient}`);
         elizaLogger.log("Querying GET_YOUTUBE_USER handler...");
         if (!state) {
             state = (await runtime.composeState(message)) as State;
@@ -161,7 +164,7 @@ export const getYoutubeContent: Action = {
                 : "";
 
         const mostRecentVideoFeed =
-            videoResult.items.length > 0
+            videoResult.items.length > 0 && !isTelegramClient
                 ? [
                       {
                           id: crypto.randomUUID(),
@@ -193,8 +196,7 @@ export const getYoutubeContent: Action = {
         // callback result to user
 
         callback?.({
-            text: `The channelId is: ${channelId}
-            , most recent video at ${mostRecentVideoUrl}
+            text: `The channel Id is: ${channelId}
             , Starknet Address is ${youtubeUserStarknetAddress}
             , Starknet ID is ${youtubeUserStarknetId}
             , Verified Recipient Address is ${getSNAddress}

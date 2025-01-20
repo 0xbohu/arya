@@ -16,10 +16,12 @@ All the features are tested on Starknet Mainnet
 - 🔗 Integrate with Starknet ID
 - 🚀 Support AVNU Token Price query and token-to-token swap
 - ☁️ Supports Token Sending on Starknet
+- ✨ Support Web UI and Telegram Integration
 
 ## Video Tutorials
 
-[Arya Walk Through Demo](https://youtu.be/PuMhW_PaKYc)
+[Arya Web Agent Walk Through Demo](https://youtu.be/PuMhW_PaKYc)
+[Arya Telegram Bot Walk Through Demo](https://youtu.be/_fRebdILMxs)
 
 Check transaction during the walkthrough video
 
@@ -57,6 +59,9 @@ TWITCH_ACCESS_TOKEN=  # Your Twitch Access Token if already authenicated, last f
 
 #Youtube
 YOUTUBE_API_KEY= # Your youtube API v3 API key
+
+# Telegram Configuration
+TELEGRAM_BOT_TOKEN= # you can deploy your own telegram bot by interact with Telgram official bot @BotFather, then update this BOT token config
 
 ```
 

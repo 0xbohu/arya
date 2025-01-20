@@ -76,6 +76,10 @@ export const getTwitchContent: Action = {
         _options: { [key: string]: unknown },
         callback?: HandlerCallback
     ): Promise<boolean> => {
+        const isTelegramClient =
+            message.content.source == "telegram" ? true : false;
+        elizaLogger.log(`isTelegramClient ${isTelegramClient}`);
+
         elizaLogger.log("Querying GET_TWITCH_USER handler...");
         if (!state) {
             state = (await runtime.composeState(message)) as State;
@@ -153,7 +157,7 @@ export const getTwitchContent: Action = {
             videoResult.data.length > 0 ? videoResult.data[0].url : "";
 
         const mostRecentVideoFeed =
-            videoResult.data.length > 0
+            videoResult.data.length > 0 && !isTelegramClient
                 ? [
                       {
                           id: crypto.randomUUID(),
@@ -188,8 +192,7 @@ export const getTwitchContent: Action = {
 
         callback?.({
             text: `The twitch userId is: ${twitchUserId}
-            , twitch username is ${twitchUserLogin}
-            , most recent video at ${mostRecentVideoUrl}
+            , latest video ${mostRecentVideoUrl}
             , Starknet Address is ${twitchUserStarknetAddress}
             , Starknet ID is ${twitchUserStarknetId}
             , Verified Recipient Address is ${getSNAddress}
