@@ -1,4 +1,4 @@
-<img src="./assets/arya_bot.png" alt="Arya" width="100%" />
+<img src="./assets/arya.png" alt="Arya" width="100%" />
 
 # Arya 🤖
 
