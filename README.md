@@ -1,3 +1,5 @@
+<img src="./assets/arya_bot.png" alt="Arya" width="100%" />
+
 # Arya 🤖
 
 Arya is a generative AI agent package created using [Eliza](https://elizaos.github.io/eliza/) framework.
