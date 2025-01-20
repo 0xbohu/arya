@@ -20,8 +20,8 @@ All the features are tested on Starknet Mainnet
 
 ## Video Tutorials
 
-[Arya Web Agent Walk Through Demo](https://youtu.be/PuMhW_PaKYc)
-[Arya Telegram Bot Walk Through Demo](https://youtu.be/_fRebdILMxs)
+- [Arya Web Agent Walk Through Demo](https://youtu.be/PuMhW_PaKYc)
+- [Arya Telegram Bot Walk Through Demo](https://youtu.be/_fRebdILMxs)
 
 Check transaction during the walkthrough video
 
